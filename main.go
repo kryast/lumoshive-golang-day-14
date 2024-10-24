@@ -156,7 +156,7 @@ func EditPesanan() {
 				pesanan.TotalHarga -= HargaItem(hapusItem)
 
 				var indexBaru int
-				fmt.Print("Masukkan nomor menu item baru yang ingin ditambahkan: ")
+				fmt.Print("Masukkan nomor menu yang ingin ditambahkan: ")
 				fmt.Scan(&indexBaru)
 
 				if indexBaru > 0 && indexBaru <= len(menu) {
