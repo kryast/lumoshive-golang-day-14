@@ -9,10 +9,10 @@ import (
 )
 
 type Pesanan struct {
-	ID         int      `json:"id"`
-	Items      []string `json:"items"`
-	TotalHarga int      `json:"total_harga"`
-	Status     string   `json:"status"`
+	ID         int
+	Items      []string
+	TotalHarga int
+	Status     string
 }
 
 type MenuItem struct {
